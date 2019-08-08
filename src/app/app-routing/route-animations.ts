@@ -13,7 +13,7 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 0,
+            top: 105,
             left: 0,
             width: '100%'
           })
@@ -23,10 +23,10 @@ export const Slider =
         ]),
         group([
           query(':leave', [
-            animate('600ms ease', style({ left: '100%'}))
+            animate('300ms ease', style({ left: '100%'}))
           ], { optional: true }),
           query(':enter', [
-            animate('600ms ease', style({ left: '0%'}))
+            animate('300ms ease', style({ left: '0%'}))
           ])
         ]),
       ]),
@@ -34,7 +34,7 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 0,
+            top: 105,
             right: 0,
             width: '100%'
           })
@@ -44,10 +44,10 @@ export const Slider =
         ]),
         group([
           query(':leave', [
-            animate('600ms ease', style({ right: '100%'}))
+            animate('300ms ease', style({ right: '100%'}))
           ], { optional: true }),
           query(':enter', [
-            animate('600ms ease', style({ right: '0%'}))
+            animate('300ms ease', style({ right: '0%'}))
           ])
         ]),
       ]),
@@ -55,7 +55,7 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 0,
+            top: 105,
             right: 0,
             width: '100%'
           })
@@ -65,10 +65,10 @@ export const Slider =
         ]),
         group([
           query(':leave', [
-            animate('600ms ease', style({ left: '100%'}))
+            animate('300ms ease', style({ left: '100%'}))
           ], { optional: true }),
           query(':enter', [
-            animate('600ms ease', style({ left: '0%'}))
+            animate('300ms ease', style({ left: '0%'}))
           ])
         ]),
       ]),
@@ -76,7 +76,7 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 0,
+            top: 105,
             right: 0,
             width: '100%'
           })
@@ -86,10 +86,10 @@ export const Slider =
         ]),
         group([
           query(':leave', [
-            animate('600ms ease', style({ right: '100%'}))
+            animate('300ms ease', style({ right: '100%'}))
           ], { optional: true }),
           query(':enter', [
-            animate('600ms ease', style({ right: '0%'}))
+            animate('300ms ease', style({ right: '0%'}))
           ])
         ]),
       ])

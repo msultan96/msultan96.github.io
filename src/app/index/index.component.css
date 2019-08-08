@@ -1,0 +1,21 @@
+::selection{
+  background: #FFC107;
+}
+
+fa-icon{
+  opacity:0.5;
+}
+
+a > fa-icon{
+  opacity:1;
+  color:#424242;
+  transition:0.3s;
+}
+
+a > fa-icon:hover{
+  color:#FFC107;
+}
+
+hr{
+  width: 80%;
+}

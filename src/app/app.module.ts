@@ -10,6 +10,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ContainerComponent } from './container/container.component';
+import { FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { ResumeComponent } from './resume/resume.component';
     IndexComponent,
     HeaderComponent,
     FooterComponent,
-    ResumeComponent
+    ResumeComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import { ResumeComponent } from './resume/resume.component';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

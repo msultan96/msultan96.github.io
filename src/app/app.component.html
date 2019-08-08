@@ -1,7 +1,13 @@
 <app-header></app-header>
-<main [@routeAnimations]="prepareRoute(outlet)" class="content">
-  <router-outlet #outlet="outlet">
-  </router-outlet>
-</main>
+<body class="bg-light">
+<div class="p-5 min-vh-100 d-flex flex-column p-5">
+  <div>
+    <main [@routeAnimations]="prepareRoute(outlet)" class="content">
+      <router-outlet #outlet="outlet">
+      </router-outlet>
+    </main>
+  </div>
+</div>
+</body>
 <app-footer></app-footer>
 <!-- Routed views go here -->

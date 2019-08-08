@@ -1,9 +1,14 @@
 <body class = "bg-dark">
-  <div class="pt-3 pb-3 text-white text-center d-flex justify-content-center">
-    <small>
+  <div class="p-3 text-white text-center d-flex justify-content-center">
+    <p class="lead">
       Muhammad Sultan<br>
-      muhammad.sultan96@gmail.com<br>
-      github.com/msultan96
-    </small>
+      <fa-icon class="p-3" [icon]="faEnvelope" size="3x" (click)="emailToClipboard()" style="cursor:pointer"></fa-icon>
+      <a href = "github.com/msultan96">
+        <fa-icon class="p-3" [icon]="faGithub" size="3x"></fa-icon>
+      </a>
+      <a href = "linkedin.com/in/msultan96">
+        <fa-icon class="p-3" [icon]="faLinkedinIn" size="3x"></fa-icon>
+      </a>
+    </p>
   </div>
 </body>
