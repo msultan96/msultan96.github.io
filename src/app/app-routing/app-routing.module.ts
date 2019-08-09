@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {IndexComponent} from '../index/index.component';
 import {ResumeComponent} from '../resume/resume.component';
+import {SkillsComponent} from '../skills/skills.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,10 @@ const routes: Routes = [
     data: {
       animation: 'isLeft'
     }
+  },
+  {
+    path: 'skills',
+    component: SkillsComponent,
   },
   {
     path: 'resume',

@@ -13,7 +13,6 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 105,
             left: 0,
             width: '100%'
           })
@@ -34,7 +33,6 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 105,
             right: 0,
             width: '100%'
           })
@@ -55,7 +53,6 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 105,
             right: 0,
             width: '100%'
           })
@@ -76,7 +73,6 @@ export const Slider =
         query(':enter, :leave', [
           style({
             position: 'absolute',
-            top: 105,
             right: 0,
             width: '100%'
           })
@@ -94,4 +90,4 @@ export const Slider =
         ]),
       ])
     ],
-  )
+  );

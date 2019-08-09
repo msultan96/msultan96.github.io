@@ -10,8 +10,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResumeComponent } from './resume/resume.component';
-import { ContainerComponent } from './container/container.component';
 import { FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     FooterComponent,
     ResumeComponent,
-    ContainerComponent
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

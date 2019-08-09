@@ -19,3 +19,20 @@ a > fa-icon:hover{
 hr{
   width: 80%;
 }
+
+.display-5{
+  font-size:2.0rem;
+  font-weight:300;
+  line-height:1.2
+}
+
+div.media{
+  transition:0.5s;
+  border-radius:25px;
+}
+
+div.media:hover{
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175);
+}
